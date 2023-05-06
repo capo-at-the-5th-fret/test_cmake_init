@@ -1,12 +1,11 @@
 #include "test_cmake_init/test_cmake_init.hpp"
 
-
-
 void foo(int x)
 {
-    int buf[10];
-    buf[x] = 0; // <- ERROR
-    if (x == 1000) {}
+  int buf[10];
+  buf[x] = 0;  // <- ERROR
+  if (x == 1000) {
+  }
 }
 
 auto main() -> int
